@@ -14,3 +14,5 @@ statements.
 (Do not use PHP Session) 
 ● Use Redis to store the session information in the backend.
 ● Either host it in Netlify or share us your GITHUB project link
+
+# Output will added soon
