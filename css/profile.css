@@ -1,0 +1,10 @@
+/* redis-server --port 6380 --slaveof 127.0.0.1 6379 */
+
+.profile-cont{
+    margin: 50px;
+}
+
+/* redis-cli -u redis://default:*******@redis-18192.c281.us-east-1-2.ec2.cloud.redislabs.com:18192 */
+
+/* host: 'redis-18192.c281.us-east-1-2.ec2.cloud.redislabs.com', */
+/* port: 18192 */
