@@ -20,11 +20,15 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$redis = new Redis();
-// $redis->connect('redis-18192.c281.us-east-1-2.ec2.cloud.redislabs.com', 18192);
-// $redis->auth('IzDni3FPBUerad8Q3F6qUdbOvBr42uBL');
+// Redis connection in development mode
+// $redis->connect('localhost', 6379);
 
-$redis->connect('localhost', 6379);
+// Redis connection in production mode
+$redis = new Redis();
+$redis->connect('redis-18192.c281.us-east-1-2.ec2.cloud.redislabs.com', 18192);
+$redis->auth('MERqihE0z2ZwtVVNW1ePQKhIlHrhDSkf');
+
+
 
 
 $email = $_POST["email"];

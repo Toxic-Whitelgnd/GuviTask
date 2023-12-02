@@ -1,10 +1,12 @@
 <?php 
 
 $redis = new Redis();
-$redis->connect('localhost', 6379);
+// Redis connection in development mode
+// $redis->connect('localhost', 6379);
 
-// $redis->connect('redis-13263.c270.us-east-1-3.ec2.cloud.redislabs.com', 13263);
-// $redis->auth('IzDni3FPBUerad8Q3F6qUdbOvBr42uBL');
+// Redis connection in production mode
+$redis->connect('redis-18192.c281.us-east-1-2.ec2.cloud.redislabs.com', 18192);
+$redis->auth('MERqihE0z2ZwtVVNW1ePQKhIlHrhDSkf');
 
 $manager = new MongoDB\Driver\Manager("mongodb://localhost:27017/");
 $database = "guvi";
