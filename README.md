@@ -15,7 +15,7 @@ statements.\
 ● Use Redis to store the session information in the backend.\
 ● Either host it in Netlify or share us your GITHUB project link\
 
-# Output will added soon
+# Output
 
 # Home page
 ![Screenshot (826)](https://github.com/Toxic-Whitelgnd/GuviTask/assets/90614827/a052e759-2446-4539-b690-d1bb76bb9c6c)
@@ -24,9 +24,13 @@ statements.\
 
 ![Screenshot (827)](https://github.com/Toxic-Whitelgnd/GuviTask/assets/90614827/f811f68f-0566-43f2-a7cd-89a2990e359c)
 
-# Login Page
 
 ![Screenshot (829)](https://github.com/Toxic-Whitelgnd/GuviTask/assets/90614827/925f092b-cdce-49a1-a3a3-a367ab64b500)
+
+# Login Page
+
+![Screenshot (830)](https://github.com/Toxic-Whitelgnd/GuviTask/assets/90614827/2a2e011b-c72d-4955-9b6c-0c2d513d6ba7)
+
 
 # Profile Page
 ![Screenshot (831)](https://github.com/Toxic-Whitelgnd/GuviTask/assets/90614827/ccaeaf63-298c-46ce-af2b-fd16f0fd9f1c)
